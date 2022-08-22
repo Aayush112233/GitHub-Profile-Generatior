@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.content {
+    background-image: url("../assets/back.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pointer {
+    cursor: pointer;
+
+}
+
+.content-in {
+    background-color: rgb(202, 202, 202);
+    max-width: 70vw;
+    padding-bottom: 30px;
+    
+}
+
+.profileImg{
+    border-radius: 100px;
+    height: 200px;
+}
+
+.btn {
+    background-color: rgb(255, 106, 0) !important;
+    border: none !important;
+    font-size: 15px !important;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0) !important;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .content-in {
+        max-width: 95vw;
+    }
+    .content {
+        height: 100%;
+    }
+}
+
+
+.header h1 {
+    color: black;
+    text-align: center;
+    margin: 0 !important;
+}
+
+.content-user {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 10px !important;
+    gap: 1rem;
+    padding: 30px;
+    min-height: 300px;
+}
+
+
+.card {
+    padding: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 200px;
+
+}
+
+.bio {
+    padding: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: flex-start;
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    gap: 1.5rem;
+}
+
+.follow h4 {
+    color: rgb(128, 128, 128);
+}
+
+.follow h5 {
+    font-size: 20px;
+}
+
+.icon {
+    color: rgb(107, 107, 107);
+    margin-right: 15px;
+
+
+    font-size: 30px;
+}
+
+.content-user h5 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
